@@ -1,0 +1,84 @@
+.maind{
+    background-color: #FFE863;
+}
+
+.login-container{
+    background-color: #F4CE14;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color:#8736AA;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    text-align: center;
+    color: #8736AA;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap:10px;
+}
+
+input, label {
+    display:block;
+}
+
+.inputs input{
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#8736AA ;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.inputs label{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #8736AA;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button{
+    height: 80px;
+    width:250px;
+    text-align: center;
+    color: #F4CE14;
+    font-size: 30px;
+    background-color: #8736AA;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #8736AA;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: #47297B;
+}
+
+.button:active{
+    transform: translateY(4px);
+}
