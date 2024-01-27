@@ -1,0 +1,31 @@
+table {
+    position: absolute;
+    top:40%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color:#8736AA;
+  }
+  
+  table tr:nth-child(even){background-color: #ffe5b4;}
+  
+  table tr:hover {background-color: #F9CEE7;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #F4CE14;
+    color: #8736AA;
+  }
+
+.buttons{
+  position:absolute;
+  top:95%;
+  
+}

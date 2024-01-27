@@ -1,6 +1,4 @@
-.maind{
-    background-color: #FFE863;
-}
+
 
 .login-container{
     background-color: #F4CE14;
@@ -14,6 +12,8 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #8736AA;
 }
 
 .text{
@@ -77,6 +77,7 @@ input:focus{
 
 .button:hover{
     background-color: #47297B;
+    border-color: #47297B;
 }
 
 .button:active{
